@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECEFF1"
+    android:clickable="true"
+    android:weightSum="1"
+    tools:context="com.example.android.netechs.WifiFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="0.08"
+                android:scaleType="centerCrop"
+                android:src="@drawable/wifibanner" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="Wi-Fi"
+                android:textColor="#03A9F4"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What is Wi-Fi ?"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="5dp"
+                    android:text="WiFi is a technology that uses radio waves to provide network connectivity. A WiFi connection is established using a wireless adapter to create hotspots - areas in the vicinity of a wireless router that are connected to the network and allow users to access internet services. Once configured, WiFi provides wireless connectivity to your devices by emitting frequencies between 2.4GHz - 5GHz, based on the amount of data on the network. " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="History of Wi-Fi"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="5dp"
+                    android:text="Wi-Fi was invented by a group of Australian scientists working for a government research agency known as the Commonwealth Scientific and Industrial Research Organization or CSIRO. Astrophysicists Dr. John O'Sullivan was the head of the team who worked on the project.\n\nThe CSIRO team was formed with the intention of producing a wireless network, although the members only began work in the early 1990s, at which point some of the key technologies already existed. The claim to have invented Wi-Fi has been supported by the American court system which has granted CSIRO the right to hundreds of millions of dollars in compensation from companies, such as T-Mobile and AT and T which manufacture Wi-Fi enabled devices. The court decisions center around United States Patent Number 5,487.069, which was granted to CSIRO in 1996." />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What Does WiFi Stand For ?"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="In short Wi-Fi doesn't stand for anything. The creators called so because it rhymed with Hi-Fi. A common misconception is that Wi-Fi stands for wireless fidelity but, in reality, it does not stand for anything. " />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/wifi_acronym" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How Wi-Fi works ?"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="Like mobile phones, a WiFi network makes use of radio waves to transmit information across a network. The computer should include a wireless adapter that will translate data sent into a radio signal. This same signal will be transmitted, via an antenna, to a decoder known as the router. Once decoded, the data will be sent to the Internet through a wired Ethernet connection.
+\n\nAs the wireless network works as a two-way traffic, the data received from the internet will also pass through the router to be coded into a radio signal that will be received by the computer's wireless adapter."/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/transmitter_receiver"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WiFi Frequencies"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="A wireless network will transmit at a frequency level of 2.4 GHz or 5GHz to adapt to the amount of data that is being sent by the user. The 802.11 networking standards will somewhat vary depending mostly on the user's needs.
+\n\n-The 802.11a will transmit data at a frequency level of 5GHz. The Orthogonal Frequency-Division Multiplexing (OFDM) used enhances reception by dividing the radio signals into smaller signals before reaching the router. You can transmit a maximum of 54 megabits of data per second.
+\n\n-The 802.11b will transmit data at a frequency level of 2.4GHz, which is a relatively slow speed. You can transmit a maximum of 11 megabits of data per second.
+\n\n-The 802.11g will transmit data at 2.4GHz but can transmit a maximum of 54 megabits of data per second as it also uses an OFDM coding.
+\n\n-The more advanced 802.11n can transmit a maximum of 140 megabits of data per second and uses a frequency level of 5GHz.
+\n\n-The newest generation of Wi-Fi signaling in popular use, 802.11ac utilizes dual-band wireless technology, supporting simultaneous connections on both the 2.4 GHz and 5 GHz Wi-Fi bands. 802.11ac offers backward compatibility to 802.11b/g/n and bandwidth rated up to 1300 Mbps on the 5 GHz band plus up to 450 Mbps on 2.4 GHz." />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/wireless_standards" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wi-Fi Security Modes"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="Wireless security is the prevention of unauthorized access or damage to computers using wireless networks. The risks to users of wireless technology have increased as the service has become more popular. Therefore it is always suggested to have a strong encryption."/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/wifi_security"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Below are some of the security modes available,\n\nOpen (risky): Open Wi-Fi networks have no passphrase. You shouldn’t set up an open Wi-Fi network — seriously, you could have your door busted down by police.
+\n\nWEP 64 (risky): The old WEP encryption standard is vulnerable and shouldn’t be used. Its name, which stands for “Wired Equivalent Privacy,” now seems like a joke.
+\n\nWEP 128 (risky): WEP with a larger encryption key size isn’t really any better.
+\n\nWPA-PSK (TKIP): This is basically the standard WPA, or WPA1, encryption. It’s been superseded and isn’t secure.
+\n\nWPA-PSK (AES): This chooses the older WPA wireless protocol with the more modern AES encryption. Devices that support AES will almost always support WPA2, while devices that require WPA1 will almost never support AES encryption. This option makes very little sense.
+\n\nWPA2-PSK (TKIP): This uses the modern WPA2 standard with older TKIP encryption. This isn’t secure, and is only a good idea if you have older devices that can’t connect to a WPA2-PSK (AES) network.
+\n\nWPA2-PSK (AES): This is the most secure option. It uses WPA2, the latest Wi-Fi encryption standard, and the latest AES encryption protocol. You should be using this option. On devices with less confusing interfaces, the option marked “WPA2” or “WPA2-PSK” will probably just use AES, as that’s a common-sense choice.
+\n\nWPAWPA2-PSK (TKIP/AES) (recommended): This enables both WPA and WPA2 with both TKIP and AES. This provides maximum compatibility with any ancient devices you might have, but also ensures an attacker can breach your network by cracking the lowest-common-denominator encryption scheme. This TKIP+AES option may also be called WPA2-PSK “mixed” mode.\n\n\n\n\n"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

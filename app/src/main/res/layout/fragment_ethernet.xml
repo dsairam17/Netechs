@@ -1,0 +1,256 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.netechs.EthernetFragment"
+    android:background="#ECEFF1"
+    android:clickable="true"
+    android:weightSum="1">
+
+    <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ethernet_banner"
+            android:layout_weight="0.08" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ETHERNET"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#03A9F4"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="What is Ethernet ?"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ethernet is a physical and data link layer technology for local area networks (LANs). Ethernet was invented by engineer Robert Metcalfe."
+                android:paddingTop="5dp"
+                android:paddingBottom="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="History of Ethernet"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Engineers Bob Metcalfe and D.R. Boggs developed Ethernet beginning in 1972. Industry standards based on their work were established in 1980 under the IEEE 802.3 set of specifications.\n\nEthernet specifications define low-level data transmission protocols and the technical details manufacturers need to know to build Ethernet products like cards and cables.\n\nEthernet technology has evolved and matured over a long time period. The average consumer can generally rely on off-the-shelf Ethernet products to work as designed and to work with each other."
+                android:paddingTop="5dp"
+                android:paddingBottom="15dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Ethernet Characteristics"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Traditional Ethernet supports data transfers at the rate of 10 megabits per second (Mbps). As the performance needs of networks increased over time, the industry created additional Ethernet specifications for Fast Ethernet and Gigabit Ethernet. Fast Ethernet extends traditional Ethernet performance up to 100 Mbps and Gigabit Ethernet up to 1000 Mbps speeds. Although products aren't yet available to the average consumer, 10 Gigabit Ethernet (10,000 Mbps) also exist and are used on some business networks and on Internet2.\n\nEthernet cables likewise are manufactured to any of several standard specifications. The most popular Ethernet cable in current use, Category 5 or CAT5 cable, supports both traditional and Fast Ethernet. The Category 5e (CAT5e) and CAT6 cables supports Gigabit Ethernet."
+                android:paddingTop="5dp"
+                android:paddingBottom="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Evolution of Ethernet"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="The original ethernet was created in 1976 at Xerox's Palo Alto Research Center(PARC). Since then it has gone through four generations."/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="265dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ethernet_evolution"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Standard Ethernet"
+                android:textStyle="bold"
+                android:paddingBottom="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A Standard Ethernet supports upto 10Mbps transfer rate. In Standard Eternet, the MAC sublayer governs the operation of the acess method. It also frames data received from the upper layer and passes them to the physical layer.It defines sevelar physical layer implementations; four of the most common are shown below."/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/standard_ethernet_categories"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Fast Ethernet"
+                android:textStyle="bold"
+                android:paddingBottom="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Fast Ethernet standard (IEEE 802.3u) has been established for Ethernet networks that need higher transmission speeds. This standard raises the Ethernet speed limit from 10 Mbps to 100 Mbps with only minimal changes to the existing cable structure. Fast Ethernet provides faster throughput for video, multimedia, graphics, Internet surfing and stronger error detection and correction.\n\nThere are three types of Fast Ethernet: 100BASE-TX for use with level 5 UTP cable; 100BASE-FX for use with fiber-optic cable; and 100BASE-T4 which utilizes an extra two wires for use with level 3 UTP cable. The 100BASE-TX standard has become the most popular due to its close compatibility with the 10BASE-T Ethernet standard."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Gigabit Ethernet"
+                android:textStyle="bold"
+                android:paddingBottom="5dp"
+                android:paddingTop="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gigabit Ethernet was developed to meet the need for faster communication networks with applications such as multimedia and Voice over IP (VoIP). Also known as “gigabit-Ethernet-over-copper” or 1000Base-T, GigE is a version of Ethernet that runs at speeds 10 times faster than 100Base-T. It is defined in the IEEE 802.3 standard and is currently used as an enterprise backbone. Existing Ethernet LANs with 10 and 100 Mbps cards can feed into a Gigabit Ethernet backbone to interconnect high performance switches, routers and servers."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• 10 Gigabit Ethernet"
+                android:textStyle="bold"
+                android:paddingBottom="5dp"
+                android:paddingTop="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Gigabit Ethernet is the fastest and most recent of the Ethernet standards. IEEE 802.3ae defines a version of Ethernet with a nominal rate of 10Gbits/s that makes it 10 times faster than Gigabit Ethernet.\n\nUnlike other Ethernet systems, 10 Gigabit Ethernet is based entirely on the use of optical fiber connections. This developing standard is moving away from a LAN design that broadcasts to all nodes, toward a system which includes some elements of wide area routing. As it is still very new, which of the standards will gain commercial acceptance has yet to be determined."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Standard Ethernet Code"
+                android:textSize="16dp"
+                android:paddingTop="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In order to understand standard Ethernet code, one must understand what each digit means. "
+                android:paddingTop="5dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/standard_ethernet_coding" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For example: 100BASE-TX indicates a Fast Ethernet connection (100 Mbps) that uses a twisted pair cable capable of full-duplex transmissions."
+                android:paddingTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="How Ethernet works ?"
+                android:textSize="16dp"
+                android:paddingTop="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ethernet is used to transfer data from one place to another. So now lets see how an ethernet works. We'll start with the simplest case of two computer connected with an ethernet cable, and we want to send a 50KB jpeg image file from one computer to the other. This is the one-hop case where 2 computers are seperated by only an ethernet cable."
+                android:paddingTop="5dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ethernet_working_example_pic1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The first question is how are the bytes of the image file on one computer sent to the other computer over the ethernet cable?\nFor transmission, the 50KB of the image is divided into packets. The packet is the natural unit of transmission within networking. In this case, say each packet is about 1500 bytes (a typical packet size), then the bytes of the 50KB image could be divided into about 32 packets of around 1500 bytes each. It is not required that all the packets be the same size, just that every byte of the image is sent in one packet or another."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="223dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ethernet_working_example_pic2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ethernet provides a basic facility to transmit a packet between two computers connected by the ethernet cable. Say we have a packet of 1500 bytes of information we want to send. Each byte is 8 bits, so that's 12000 bits to send, where each bit is a 0 or 1. Here's an oversimplification that captures how it works: the ethernet cable contains two wires connecting the computers. The sending computer could read through the 12000 bits in order, and for each 1 bit, put 3 volts between the wires, and for each 0 bit, put 0 volts between the wires. The receiving computer can follow along, noting the 3v/0v pattern on the wires over time and so receive the 12000 bits. In reality the most recent ethernet contains 4 pairs of wires and supports sending information in both directions and with a more complex voltage scheme. However, this pattern of going through the bits and varying the voltage to send each bit is essentially how it all works."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Applications of Ethernet"
+                android:textSize="16dp"
+                android:paddingTop="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Layer 2 VPNs for IT Infrastructure: Ethernet Layer 2 Virtual Private Networks (VPNs) maximize the performance of existing IT infrastructure increasing network control.
+\n2.Cloud Computing: The deterministic and dynamic service attributes of Ethernet benefit the way cloud computing is used and consumed.\n
+3.Site to Site Access: Provides added performance and higher bandwidth levels along with service standardization at all locations.
+4.Software-as-a-Service (SaaS), Service Oriented Architecture (SOA): Offers better transparency, standardization at all locations and easier performance management.\n
+5.Video Applications: Provides better quality of service (QoS).\n
+6.Voice: Voice over Internet Protocol (VoIP) is well-known for its cost-savings.  Ethernet provides quality of service (QoS) options and improved performance management.\n
+7.Distributed Storage Area Networks: Provides added performance and higher bandwidth levels.\n
+8.CCTV: Closed-circuit television (CCTV) – Ethernet connectivity offers consistent cost and ubiquity enabling improved service management.\n
+9.Business Continuity/Disaster Recovery: Ethernet allow business continuity and disaster recovery networks to optimally perform with measurable performance and flexible bandwidth levels.\n
+10.Distributed Imaging: Ethernet delivers the higher bandwidth required for distributed imaging systems including picture archiving and communications system (PACS)."
+                android:paddingTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Summary"
+                android:textSize="16dp"
+                android:paddingTop="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ethernet is one of the Internet's key technologies. Despite its advanced age, Ethernet continues to power many of the world's local area networks and continually is improving to meet future needs for high-performance networking.\n\n\n\n\n"
+                android:paddingTop="5dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

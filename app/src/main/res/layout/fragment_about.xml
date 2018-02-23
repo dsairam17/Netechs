@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:clickable="true"
+    tools:context="com.example.android.netechs.AboutFragment"
+    android:background="#ECEFF1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/myapp_icon"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Networking Technologies"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:textColor="#03A9F4"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Developed and Designed By:"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:textColor="#3F51B5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="D.Sai Ram"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:background="#FFFFFF"
+        android:textColor="#3F51B5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="CSE D"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
+        android:background="#FFFFFF"
+        android:textColor="#3F51B5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="201501215"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
+        android:background="#FFFFFF"
+        android:textColor="#3F51B5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:text="DESCRIPTION:"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:textColor="#000000"
+        android:text="Currently this app consists of definitions, history, working and many other information about the following topics:\n    -Ethernet\n    -Bluetooth\n    -Wi-Fi\n\nAll information provided in this application are fully offline hence users can access it without an internet connection whenever they want. "
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Contact Details :"
+        android:paddingLeft="15dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:text="For any assistance contact me at:\n+91 9444535787\t\t\t\t\ndsairam17@gmail.com"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text="Happy Learning!!!"
+        android:paddingLeft="15dp"
+        android:background="#FFFFFF"
+        android:textColor="#03A9F4"
+        android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
